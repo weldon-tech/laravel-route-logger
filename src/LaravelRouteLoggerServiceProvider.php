@@ -1,10 +1,10 @@
 <?php
 
-namespace Usmonaliyev\LaravelRouteLogger;
+namespace Weldon\LaravelRouteLogger;
 
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
-use Usmonaliyev\LaravelRouteLogger\Middleware\Log;
+use Weldon\LaravelRouteLogger\Middleware\Log;
 
 class LaravelRouteLoggerServiceProvider extends ServiceProvider
 {

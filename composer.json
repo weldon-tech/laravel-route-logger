@@ -1,23 +1,23 @@
 {
-    "name": "usmonaliyev/laravel-route-logger",
+    "name": "weldon/laravel-route-logger",
     "description": "This package write log when project handle request.",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Usmonaliyev\\LaravelRouteLogger\\": "src/"
+            "Weldon\\LaravelRouteLogger\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Temur5319436",
-            "email": "temur5319436@gmail.com"
+            "name": "Weldon",
+            "email": "info.weldonuz@gmail.com"
         }
     ],
     "extra": {
         "laravel": {
             "providers": [
-                "Usmonaliyev\\LaravelRouteLogger\\LaravelRouteLoggerServiceProvider"
+                "Weldon\\LaravelRouteLogger\\LaravelRouteLoggerServiceProvider"
             ]
         }
     }

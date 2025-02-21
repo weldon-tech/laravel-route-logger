@@ -11,14 +11,14 @@ This project can write some data of request and response to log file.
 Install my-project with [composer](https://getcomposer.org/)
 
 ```bash
-composer require usmonaliyev/laravel-route-logger
+composer require weldon/laravel-route-logger
 
 ```
 
 You can control log file name, path, format by `config/laravel-router-log.php`. 
 To create it in your `config` folder, you should run this command.
 ```bash
-php artisan vendor:publish --provider="Usmonaliyev\LaravelRouteLogger\LaravelRouteLoggerServiceProvider"
+php artisan vendor:publish --provider="Weldon\LaravelRouteLogger\LaravelRouteLoggerServiceProvider"
 ```
 
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Usmonaliyev\LaravelRouteLogger\Middleware;
+namespace Weldon\LaravelRouteLogger\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
